@@ -1,0 +1,12 @@
+name=input("Enter employee name:-")
+ide=int(input("Enter employee ID:-"))
+salry=float(input("Enter salary:-"))
+dprt=input("Enter department:-")
+active=bool(input("Is employee active(Yes/No):-"))
+
+print("---Employee Details---")
+print(f"Name :{name}")
+print(f"ID :{ide}")
+print(f"Salary :{salry:.2f}")
+print(f"Department :{dprt}")
+print(f"Active :{active}")
